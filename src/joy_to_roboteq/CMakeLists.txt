@@ -1,10 +1,12 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(Joy_to_RobotEQ)
+project(joy_to_roboteq)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  joy
+  roboteq_driver
   roscpp
   rospy
   std_msgs
@@ -101,8 +103,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES Joy_to_RobotEQ
-#  CATKIN_DEPENDS roscpp rospy std_msgs
+#  LIBRARIES joy_to_roboteq
+#  CATKIN_DEPENDS joy roboteq_driver roscpp rospy std_msgs
 #  DEPENDS system_lib
 )
 
@@ -118,24 +120,24 @@ include_directories(
 )
 
 ## Declare a C++ library
-# add_library(Joy_to_RobotEQ
-#   src/${PROJECT_NAME}/Joy_to_RobotEQ.cpp
+# add_library(joy_to_roboteq
+#   src/${PROJECT_NAME}/joy_to_roboteq.cpp
 # )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
-# add_dependencies(Joy_to_RobotEQ ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(joy_to_roboteq ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(Joy_to_RobotEQ_node src/Joy_to_RobotEQ_node.cpp)
+# add_executable(joy_to_roboteq_node src/joy_to_roboteq_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(Joy_to_RobotEQ_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(joy_to_roboteq_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(Joy_to_RobotEQ_node
+# target_link_libraries(joy_to_roboteq_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -154,7 +156,7 @@ include_directories(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS Joy_to_RobotEQ Joy_to_RobotEQ_node
+# install(TARGETS joy_to_roboteq joy_to_roboteq_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -179,7 +181,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_Joy_to_RobotEQ.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_joy_to_roboteq.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

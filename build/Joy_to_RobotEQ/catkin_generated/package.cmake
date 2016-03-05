@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "Joy_to_RobotEQ")
+set(Joy_to_RobotEQ_MAINTAINER "keniso <keniso@todo.todo>")
+set(Joy_to_RobotEQ_DEPRECATED "")
+set(Joy_to_RobotEQ_VERSION "0.0.0")
+set(Joy_to_RobotEQ_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(Joy_to_RobotEQ_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(Joy_to_RobotEQ_BUILDTOOL_DEPENDS "catkin")
