@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/keniso/BasicROSWorkspace/devel -DCMAKE_INSTALL_PREFIX=/home/keniso/BasicROSWorkspace/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+/home/keniso/BasicROSWorkspace/build/CMakeFiles/clean_test_results.dir
+/home/keniso/BasicROSWorkspace/build/CMakeFiles/clean_test_results_Project.dir
+/home/keniso/BasicROSWorkspace/build/CMakeFiles/download_extra_data.dir
+/home/keniso/BasicROSWorkspace/build/CMakeFiles/doxygen.dir
+/home/keniso/BasicROSWorkspace/build/gtest/CMakeFiles/gtest.dir
+/home/keniso/BasicROSWorkspace/build/gtest/CMakeFiles/gtest_main.dir
+/home/keniso/BasicROSWorkspace/build/CMakeFiles/run_tests.dir
+/home/keniso/BasicROSWorkspace/build/CMakeFiles/tests.dir
