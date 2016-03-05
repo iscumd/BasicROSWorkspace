@@ -313,7 +313,7 @@ lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
 message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
 
 //The directory containing a CMake configuration file for roboteq_driver.
-roboteq_driver_DIR:PATH=roboteq_driver_DIR-NOTFOUND
+roboteq_driver_DIR:PATH=/opt/ros/indigo/share/roboteq_driver/cmake
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
