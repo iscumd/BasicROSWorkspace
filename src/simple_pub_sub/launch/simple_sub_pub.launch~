@@ -1,0 +1,7 @@
+<launch>
+ 
+     <node pkg="simple_pub_sub" name="hi" type="talker"/>
+     <node pkg="simple_pub_sub" name="there" type="listener"/>
+
+ 
+</launch>
