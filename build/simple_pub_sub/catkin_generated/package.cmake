@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "simple_pub_sub")
+set(simple_pub_sub_MAINTAINER "keniso <keniso@todo.todo>")
+set(simple_pub_sub_DEPRECATED "")
+set(simple_pub_sub_VERSION "0.0.0")
+set(simple_pub_sub_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(simple_pub_sub_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(simple_pub_sub_BUILDTOOL_DEPENDS "catkin")
