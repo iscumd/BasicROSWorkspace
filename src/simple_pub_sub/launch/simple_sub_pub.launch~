@@ -1,7 +1,8 @@
 <launch>
  
+     <node pkg="rqt_graph" name="rqt_graph" type="rqt_graph"/>
      <node pkg="simple_pub_sub" name="talker" type="talker"/>
-     <node pkg="simple_pub_sub" name="listener" type="listener"/>
+     <node pkg="simple_pub_sub" name="listener2" type="listener"/>
 
  
 </launch>

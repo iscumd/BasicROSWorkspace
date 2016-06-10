@@ -1,5 +1,4 @@
 /home/keniso/BasicROSWorkspace/build/CMakeFiles/clean_test_results.dir
-/home/keniso/BasicROSWorkspace/build/CMakeFiles/clean_test_results_Project.dir
 /home/keniso/BasicROSWorkspace/build/joy_to_roboteq/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir
 /home/keniso/BasicROSWorkspace/build/joy_to_roboteq/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir
 /home/keniso/BasicROSWorkspace/build/joy_to_roboteq/CMakeFiles/diagnostic_msgs_generate_messages_py.dir
