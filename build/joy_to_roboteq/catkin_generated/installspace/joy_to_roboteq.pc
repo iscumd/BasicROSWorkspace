@@ -1,8 +1,0 @@
-prefix=/home/keniso/BasicROSWorkspace/install
-
-Name: joy_to_roboteq
-Description: Description of joy_to_roboteq
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/keniso/BasicROSWorkspace/install/lib 
-Requires: 

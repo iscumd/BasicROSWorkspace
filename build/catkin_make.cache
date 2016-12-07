@@ -1,2 +1,0 @@
-joy_to_roboteq:simple_pub_sub
--DCATKIN_DEVEL_PREFIX=/home/keniso/BasicROSWorkspace/devel -DCMAKE_INSTALL_PREFIX=/home/keniso/BasicROSWorkspace/install -G Unix Makefiles
